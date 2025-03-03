@@ -1,26 +1,27 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref, computed, type ComponentCustomElementInterface } from 'vue'
+import HomePage from './components/HomePage.vue'
+import MenuComponent from './components/MenuComponent.vue'
+import AboutPage from './components/AboutPage.vue'
+const routes: Record<string, ComponentCustomElementInterface> = {
+  '/': HomePage,
+  '/about': AboutPage,
+}
+
+const currentPath = ref(window.location.hash)
+
+window.addEventListener('hashchange', () => {
+  currentPath.value = window.location.hash
+})
+
+const currentView = computed(() => {
+  return routes[currentPath.value.slice(1) || '/']
+})
+</script>
 
 <template>
-  <header>
-    <div class="logo-container">
-      <img alt="Vue logo" class="logo" src="./assets/tyamz-full.svg" />
-    </div>
-    <span class="slogan">Senior Software Engineer</span>
-  </header>
+  <component :is="currentView" />
+  <MenuComponent />
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-</style>
+<style scoped></style>
