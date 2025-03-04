@@ -18,8 +18,8 @@ Another notable accomplishment was my design and implementation of a backroom ti
 
 - Education: B.S. in Computer Science from Kean University; GPA: 3.558
 - Skills: Languages: JavaScript / TypeScript, C# / .NET, Java, PHP, SQL, HTML
-- Frameworks / Libraries: Node.js, React, Electron / Vite.js, Laravel / OctoberCMS
-- Technologies: REST, HTTP, APIs, WebSockets / SignalR, TCP
+- Frameworks / Libraries: Node.js, React, Electron, Angular, Vue, Laravel
+- Technologies: REST, HTTP, APIs, WebSockets / SignalR, TCP, GraphQL, gRPC
 - Databases: MySQL, MSSQL, Postgres, SQLite, MongoDB, AmazonRDS, DynamoDB
 
 I am a strong advocate for knowledge sharing and have fostered a supportive environment for new team members, expediting onboarding time and ensuring a seamless transition into the team. My strategic approach to DevOps has enabled faster project delivery and compliance with technical requirements for major software releases. Additionally, my commitment to delivering critical updates on time has ensured SLA compliance for key clients, including major financial institutions.
