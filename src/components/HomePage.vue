@@ -4,6 +4,7 @@
     <div class="logo-container">
       <img alt="TYAMZ logo" class="logo" src="../assets/tyamz-full.svg" />
     </div>
-    <span class="slogan">Senior Software Engineer</span>
+    <span class="slogan">Thomas Yamakaitis</span>
+    <span class="under-slogan">Senior Software Engineer</span>
   </header>
 </template>

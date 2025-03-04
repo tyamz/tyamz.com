@@ -4,7 +4,8 @@
     <div class="logo-container">
       <img alt="TYAMZ logo" class="logo" src="../assets/tyamz-full.svg" />
     </div>
-    <span class="slogan">Senior Software Engineer</span>
+    <span class="slogan">Thomas Yamakaitis</span>
+    <span class="under-slogan">Senior Software Engineer</span>
   </header>
   <main>
     <h2>About Me</h2>
@@ -71,7 +72,7 @@
 
 <style scoped>
 header {
-  height: 10rem;
+  margin-top: 1rem;
 }
 main {
   margin: 0 auto;
@@ -79,22 +80,27 @@ main {
 }
 
 .about {
-  font-family:
-    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding: 0 1rem;
+  font-family: 'Teko', sans-serif;
+  padding: 1rem;
   font-size: 1.2rem;
   color: #fff;
   background-color: #333;
+  width: 80rem;
 }
+
 p {
-  margin: 1rem 0;
+  margin: 0;
 }
 
 @media (max-width: 1024px) {
+  .logo {
+    width: 250px;
+    height: 50px;
+  }
   .about {
     display: block;
-    width: 25rem;
-    max-height: 40rem;
+    width: 20rem;
+    max-height: 38rem;
     overflow-y: scroll;
   }
 }
